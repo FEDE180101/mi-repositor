@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+}
+header{
+    height: 10;
+}
+main{
+    height: 70;
+}
+footer{
+    height: 20;
+}
+.carrousel.inner {
+    max-height: 35rem;
+   
+   }
+.carousel-item{
+    max-height: 35rem;
+  
+}
+
+/*tamaño de pequeña pantalla*/
+@media (max-with:768px)
+{
+    #intro #equipo {
+        width: 90% !important;
+    }
+    
+}
+
+
+.servicio-fila{
+    width: 100% !important;
+    text-align: center;
+}
+
+/* PIE DE PAGINA*/
+
+footer{
+    min-height: 100px;
+}
+footer p{
+    text-align: center;
+}
+#iconos{
+    font-size: 26px;
+    padding: 0 8px;
+    
+}
